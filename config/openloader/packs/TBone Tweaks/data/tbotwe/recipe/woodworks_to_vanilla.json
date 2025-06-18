@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "tbotwe:woodworks_chests"
+        }
+      ],
+      "result": {
+        "id": "minecraft:chest"
+      }
+}

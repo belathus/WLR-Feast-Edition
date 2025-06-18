@@ -1,0 +1,48 @@
+{
+  "type": "extradelight:feast",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "out": {
+    "id": "extradelight:jelly_magenta_block_item"
+  },
+  "result": {
+    "count": 1,
+    "id": "extradelight:jelly_magenta",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 1,
+        "can_always_eat": true,
+        "eat_seconds": 4,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:speed",
+              "amplifier": 1,
+              "duration": 5184000,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": true
+            },
+            "probability": 1
+          },
+          {
+            "effect": {
+              "id": "minecraft:haste",
+              "amplifier": 6,
+              "duration": 36000,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": true
+            },
+            "probability": 1
+          }
+        ],
+        "using_converts_to": {
+          "id": "minecraft:bowl"
+        }
+      }
+    }
+  }
+}

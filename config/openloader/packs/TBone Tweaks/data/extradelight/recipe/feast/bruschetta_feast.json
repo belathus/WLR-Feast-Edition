@@ -1,0 +1,45 @@
+{
+  "type": "extradelight:feast",
+  "container": {
+    "item": "minecraft:paper"
+  },
+  "out": {
+    "id": "extradelight:bruschetta_feast"
+  },
+  "result": {
+    "count": 1,
+    "id": "extradelight:bruschetta",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 1,
+        "can_always_eat": true,
+        "eat_seconds": 4,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:night_vision",
+              "amplifier": 0,
+              "duration": 5184000,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": true
+            },
+            "probability": 1
+          },
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "amplifier": 4,
+              "duration": 36000,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": true
+            },
+            "probability": 1
+          }
+        ]
+      }
+    }
+  }
+}
