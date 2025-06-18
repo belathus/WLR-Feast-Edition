@@ -1,0 +1,1 @@
+This is a Minecraft 1.21.1 Modpack. Key feature is that feasts give long-term potion effects.
