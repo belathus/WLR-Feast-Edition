@@ -56,7 +56,8 @@ villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 4);
 #villagerTrades.addTrade(<profession:minecraft:farmer>, 4, <item:minecraft:melon>*4, <item:minecraft:emerald>, 16, 20, 0.05);
 # Selling
 villagerTrades.addTrade(<profession:minecraft:farmer>, 4, 1, <item:minecraft:cake>, 12, 15, 0.05);
-villagerTrades.addTrade(<profession:minecraft:farmer>, 4, 1, <item:minecraft:suspicious_stew>.withTag({Effects: [{EffectDuration:7, "forge:effect_id":"minecraft:saturation", EffectId: 23}]}), 12, 15, 0.05);
+villagerTrades.addTrade(<profession:minecraft:farmer>, 4, 1, <item:minecraft:suspicious_stew>.withJsonComponent(<componenttype:minecraft:suspicious_stew_effects>, [{"id": "minecraft:saturation", "duration": 8}]), 12, 15, 0.05);
+
 
 
 ##########################################
